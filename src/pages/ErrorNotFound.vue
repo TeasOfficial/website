@@ -6,18 +6,10 @@
       </div>
 
       <div class="text-h2" style="opacity:.4">
-        Oops. Nothing here...
+        非常抱歉，你要找的页面走丢了...
       </div>
 
-      <q-btn
-        class="q-mt-xl"
-        color="white"
-        text-color="blue"
-        unelevated
-        to="/"
-        label="Go Home"
-        no-caps
-      />
+      <q-btn class="q-mt-xl" color="white" text-color="blue" unelevated to="/" label="带我回精神病院！！！" no-caps />
     </div>
   </div>
 </template>

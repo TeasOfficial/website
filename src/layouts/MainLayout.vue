@@ -8,6 +8,7 @@
             <q-btn flat padding="12.5px 24px" label="喷漆文件制作器" href="https://nekogan.com/vtf/" />
             <q-btn flat padding="12.5px 24px" label="服务器帮助文档" href="https://docs.nekogan.com/" />
             <q-btn flat padding="12.5px 24px" label="BHOP查询" @click="alert = true" />
+            <q-btn flat padding="12.5px 24px" label="MC服官网" @click="alert = true" />
           </center>
         </q-toolbar-title>
 
@@ -37,7 +38,9 @@
     </q-drawer>
 
     <q-page-container>
-      <router-view />
+      <q-scroll-area style="height: 80vh;">
+        <router-view />
+      </q-scroll-area>
     </q-page-container>
 
     <q-footer>
@@ -82,7 +85,16 @@ defineOptions({
 const alert = ref(false)
 
 const linksList = [
-
+  {
+    title: "GitHub",
+    link: "https://github.com/TeasOfficial/website",
+    caption: "服务器官网开源地址"
+  },
+  {
+    title: "关于",
+    to: 'about',
+    caption: "服务器管理人员&制作团队"
+  }
 ]
 
 const leftDrawerOpen = ref(false)
@@ -114,7 +126,7 @@ function toggleLeftDrawer() {
   color: black;
 }
 
-a {
+.copyright a {
   color: #9b4dca;
   text-decoration: none;
   font-size: 12px;
@@ -128,6 +140,6 @@ a {
 .copyright {
   border-left: 0.3rem solid #d1d1d1;
   border-right: 0.3rem solid #d1d1d1;
-  margin: 0 60px 60px 60px;
+  margin: 0 60px 15px 60px;
 }
 </style>
