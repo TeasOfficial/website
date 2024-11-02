@@ -7,7 +7,7 @@
             <q-btn flat padding="12.5px 24px" label="首页" to="/" />
             <q-btn flat padding="12.5px 24px" label="喷漆文件制作器" href="https://nekogan.com/vtf/" />
             <q-btn flat padding="12.5px 24px" label="服务器帮助文档" href="https://docs.nekogan.com/" />
-            <q-btn flat padding="12.5px 24px" label="BHOP查询" @click="alert = true" />
+            <q-btn flat padding="12.5px 24px" label="BHOP查询" to="/bhop" />
             <q-btn flat padding="12.5px 24px" label="MC服官网" @click="alert = true" />
           </center>
         </q-toolbar-title>
