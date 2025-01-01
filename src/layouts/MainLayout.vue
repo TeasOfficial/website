@@ -45,7 +45,7 @@
 
     <q-footer>
       <center class="copyright">
-        Eh5の茶会 2020-2024
+        Eh5の茶会 2020-2025
         <br>
         <a href="https://beian.miit.gov.cn/">辽ICP备2023013547号</a>
         &nbsp;
@@ -94,6 +94,16 @@ const linksList = [
     title: "关于",
     to: 'about',
     caption: "服务器管理人员&制作团队"
+  },
+  {
+    title: "2025新年纪念",
+    to: '2025',
+    caption: "2025渐渐靠近，新的一年，感谢你再次陪伴服务器度过一年！"
+  },
+  {
+    title: "2024新年纪念",
+    to: '2024',
+    caption: "钟声响起，让我们共同跨越2023！"
   }
 ]
 
